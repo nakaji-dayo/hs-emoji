@@ -15,5 +15,12 @@ Just "\127843"
 🍕
 ```
 
+## build
+
+```
+./download.sh
+stack build
+```
+
 ## emoji data
 This library gets emoji list file from [here](https://github.com/omnidan/node-emoji)

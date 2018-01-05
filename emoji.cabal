@@ -1,14 +1,14 @@
 name:                emoji
 version:             0.1.0.0
--- synopsis:
--- description:
-homepage:            https://github.com/githubuser/hs-emoji#readme
+synopsis:            emoji utility
+description:         emoji utility
+homepage:            https://github.com/nakaji-dayo/hs-emoji#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2018 Author name here
-category:            Web
+author:              Daishi Nakajima
+maintainer:          nakaji.dayo@gmail.com
+copyright:           2018 Daishi Nakajima
+category:            Unicode
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
@@ -22,7 +22,7 @@ library
                      , bytestring
                      , aeson
                      , unordered-containers
-                     , template-haskell == 2.12.0.0
+                     , template-haskell >= 2.11
   default-language:    Haskell2010
 
 executable emoji-example

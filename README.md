@@ -1,5 +1,7 @@
 # hs-emoji
 
+[![Hackage](https://img.shields.io/hackage/v/emoji.svg)](https://hackage.haskell.org/package/emoji)
+
 ## example
 ```
 import Data.Emoji

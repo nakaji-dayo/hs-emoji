@@ -10,7 +10,7 @@ import Data.HashMap.Lazy
 
 sample :: Q Exp
 sample = do
-  b <- runIO $ B.readFile "./resource/emoji.json"
+  b <- runIO $ B.readFile "./resource/node-emoji/lib/emoji.json"
   let Just dic = decode b :: Maybe (HashMap String String)
       folder k v acc =
         (match (litP (stringL k)) (normalB (appE (conE 'Just) (litE (stringL v)))) []):acc

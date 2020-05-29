@@ -1,0 +1,3 @@
+[submodule "resource/node-emoji"]
+	path = resource/node-emoji
+	url = git@github.com:omnidan/node-emoji.git
